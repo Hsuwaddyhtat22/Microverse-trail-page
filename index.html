@@ -16,9 +16,11 @@
         alt=" This is a picture of fruits"
       />
       <nav id="nav-bar">
-        <a href="/" class="nav-link">HTML</a>
-        <a href="/" class="nav-link">CSS</a>
-        <a href="/" class="nav-link">JAVA</a>
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how_it_works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
       </nav>
 
       <iframe
@@ -30,19 +32,26 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
+        type="video/mp4"
+      >
+        ></iframe
+      >
     </header>
 
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input
-        id="email"
-        placeholder=" Please Write a Valid Email"
-        type="email"
-        name=" email"
-      />
+    <div class="container"></div>
+    <section id="hero">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          placeholder=" Please Write a Valid Email"
+          type="email"
+          name="email"
+          required
+        />
 
-      <input id="submit" type="submit" />
-    </form>
+        <input id="submit" type="submit" />
+      </form>
+    </section>
 
     <script src="js/index.js"></script>
   </body>
